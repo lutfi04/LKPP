@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"  standalone="no"  ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:head>
+  <link rel="alternate" type="application/rss+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=RSS2"></link>
+  <link rel="alternate" type="application/atom+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=Atom"></link>
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
+</xpage:head>
+<xpage:title>Selamat Datang di <epc:phrase ref="archive_name" /></xpage:title>
+<xpage:body>
+
+<blockquote class="blockquote text-center">
+  <p class="mb-0 font-weight-bold">Selamat Datang di Virtual Library LKPP</p>
+  <footer class="blockquote-footer"><cite title="Source Title">Sumber Koleksi Materi PBJ LKPP </cite></footer>
+</blockquote>
+
+
+<div class="row">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="{$config{rel_path}}/images/c2.jpg" alt="First slide"></img>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<hr class="bg-light my-20"></hr>
+
+
+<blockquote class="blockquote text-center">
+  <footer class="blockquote-footer"><cite title="Source Title">
+Pengadaan yang kredibel sejahterakan bangsa</cite></footer>
+</blockquote>
+
+<hr class="bg-light my-20"></hr>
+
+
+ <div class="row">
+  <div class="col-sm-4">
+    <div class="card border-danger">
+      <img class="card-img-top" src="{$config{rel_path}}/images/search.jpg" alt="Card image cap"></img>
+      <div class="card-body">
+        <h5 class="card-title">Koleksi Terbaru</h5>
+        <p class="card-text">Lihat koleksi data terbaru berupa artikel, video, audio, dll</p>
+        <a href="{$config{perl_url}}/latest" class="btn btn-dark text-white"><i class="fas fa-search"></i> Telusuri</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card border-dark">
+       <img class="card-img-top" src="{$config{rel_path}}/images/guideline.jpg" alt="Card image cap"></img>
+      <div class="card-body">
+        <h5 class="card-title">Pedoman Artikel</h5>
+        <p class="card-text">Pedoman unggah artikel dapat diunduh disini</p>
+        <a href="#" class="btn btn-dark text-white"><i class="fas fa-download"></i> Download</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-4">
+    <div class="card border-warning">
+     <img class="card-img-top" src="{$config{rel_path}}/images/contact1.jpg" alt="Card image cap"></img>
+      <div class="card-body">
+        <h5 class="card-title">Kontak</h5>
+        <p class="card-text">kontak vlibrary@lkpp.go.id untuk informasi lebih lanjut</p>
+        <a href="#" class="btn btn-dark text-white"><i class="far fa-envelope-open"></i> Email</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</xpage:body>
+</xpage:page>

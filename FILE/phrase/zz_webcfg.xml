@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <!-- This file is used to add phrases from the phrase editor screen -->
+
+    <epp:phrase id="user_fieldhelp_roles">This field allows an administrator to assign roles to a user. It may also be used to assign (and remove) individual privileges by prefixing the priv string with plus (+) or minus (-).
+
+Terdapat beberapa role :
+1. Pengajar : pengajar
+2. Peserta Pelatihan : peserta
+3. Pustakawan : pustawakan
+4. Umum : umum
+5. JabFung : jabfung</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Report:no_reports"> <epc:phrase ref="lib/irstats2:embedded:summary_page:eprint:downloads"/></epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_abstract">Abstrak</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Details:title">Detil</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/UploadPicture:title">Foto Profil</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/SavedSearches:title">Pencarian Tersimpan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Homepage:title">Beranda</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Homepage:help_title">Bantuan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:title">Telaah</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/UBReviewed:title">Antrian Publikasi</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/EditLink:action:redirect:title">Ubah Profil</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/ExportPdf:action:write:title">Daftar Artikel Saya</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/TopTen:title">Item Paling Banyak dilihat</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/DataSets:title">Kelola Catatan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Details:title">Detil</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:title">Kelola Artikel</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Login:title:logged_in">Masuk sebagai <epc:pin name="user"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Logout:title">Keluar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Details:title">Detail</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Report:title">Laporan</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/QuickUpload:title">Unggah Cepat</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/QuickUpload:add_file">Unggah</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/TopTen:eprinttitle">Judul Artikel</epp:phrase>
+
+    <epp:phrase id="template/navigation:home">Halaman Depan</epp:phrase>
+
+    <epp:phrase id="template/navigation:browse">Cari</epp:phrase>
+
+    <epp:phrase id="template/navigation:about">Tentang Kami</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Layout/TwoColumn:remove_widget">Hapus widget</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Layout/TwoColumn:resetprefs">Atur Ulang Profil</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/IRStats/DownloadGraph:title">Fitur Laporan</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/EPrintsIssues:title">Isu</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/LatestEPrints:title">Artikel Terbaru</epp:phrase>
+
+    <epp:phrase id="cgi/login:title">Masuk</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contact_email">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_id">Email</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators">Penulis</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_date">Tanggal</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_funders">Sponsor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_projects">Proyek</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_title">Judul</epp:phrase>
+
+    <epp:phrase id="eprint_typename_article">Artikel</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_publication">Jurnal</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/Youtube:title">dari Youtube</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/URL:title">dari URL</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint:deposit">Selesai</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Edit:title">Perbaharui Item</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/File:title">Berkas</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:title">Tambah Dokumen Baru</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/Google:title">Google Docs</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:add_format">Unggah</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:new_from_url">dari URL: </epp:phrase>
+
+    <epp:phrase id="lib/metafield:year">Tahun:</epp:phrase>
+
+    <epp:phrase id="lib/metafield:more_spaces">Input Tambahan</epp:phrase>
+
+    <epp:phrase id="lib/metafield:given_names">Inisial</epp:phrase>
+
+    <epp:phrase id="lib/metafield:family_names">Nama Belakang</epp:phrase>
+
+    <epp:phrase id="lib/metafield:month">Bulan :</epp:phrase>
+
+    <epp:phrase id="lib/metafield:day">Tgl :</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_stop">Batal</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_save">Simpan</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_next">Selanjutnya &gt;</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_divisions">Divisi</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_creators">Pengarang</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_subjects">Subyek</epp:phrase>
+
+    <epp:phrase id="viewname_eprint_year">Tahun</epp:phrase>
+
+    <epp:phrase id="metapage_title_core">Detil</epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Layout/TwoColumn:add_widget">Tambah widget</epp:phrase>
+
+    <epp:phrase id="lib/session:edit_phrases">Ubah Halaman</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewEPrint:action:create:title">Item Baru</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:help_title">Bantuan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:remove_column_confirm">Anda yakin ?</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:add">Tambah Kolom</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:action:import_from:title">Impor</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:import_section">
+<table xmlns:epc="http://eprints.org/ep3/control" width="100%"><tr>
+  <td align="center">Impor dari <epc:pin name="menu"/><epc:pin name="button"/></td>
+</tr>
+<tr>
+  <td align="center">
+    <epc:pin name="tools"/>
+  </td>
+</tr>
+</table></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/View:title">Lihat Item</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:title">Hapus item</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contributors">Kontributor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contributors_name">Nama</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_contributors_type">Kontribusi</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_department">Departemen</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_divisions">Divisi</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors">Editor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_institution">Institusi</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_lastmod">Terakhir Diperbarui</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors_name">Editor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_eprint_status">Status Item</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_type">Tipe Item</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_eprint_status_deletion">Pensiun</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_eprint_status_buffer">Sedang Diriviu</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_eprint_status_archive">Dipublikasikan</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_eprint_status_reviewed">Sudah diriviu</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_eprint_status_inbox">Draf</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Deposit:title">Publikasikan</epp:phrase>
+
+    <epp:phrase id="lib/paginate:add_column">Tambah Kolom</epp:phrase>
+
+    <epp:phrase id="datasetname_saved_search">Pencarian Tersimpan</epp:phrase>
+
+    <epp:phrase id="lib/paginate:no_items">Tidak ada item</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_id">ID Pencarian</epp:phrase>
+
+    <epp:phrase id="saved_search_fieldname_name">Nama Pencarian</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:page_title">Kelola <epc:pin name="dataset"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Listing:remove_column_confirm">Anda yakin ?</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:text_all">Semua</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:text_any">Sebagian</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_reset">Kembali ke awal</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:help_title">Bantuan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Review:remove_column_confirm">Anda yakin ?</epp:phrase>
+
+    <epp:phrase id="lib/paginate:remove_column">Hapus Kolom</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_eprintid">ID Item</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_status_changed">Terakhir Status diubah</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/UBReviewed:remove_column_confirm">Anda yakin ?</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/UBReviewed:help_title">Bantuan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit:save_config_button">Simpan Perubahan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:change_image">Ganti: </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:external_edit_title">Ubah dengan Editor luar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:image_editor">Ganti/Unggah Gambar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:really_next">Selanjutnya?</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:inline_edit_title">Ubah Halaman</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:indextitleprefix">Cari berdasarkan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Remove:sure_delete"><p xmlns:epc="http://eprints.org/ep3/control">Anda yakin? <epc:pin name="title"/></p></epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_cancel">Batal</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_remove">Hapus</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen:message_warning">Perhatian</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/deposit_later">Publikasikan Nanti</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/deposit">Publikasikan Sekarang</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:action_test_upload">Tes tanpa Impor</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:action_import_upload">Impor Sekarang</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Import:title">Impor dari <epc:pin name="input"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Destroy:title">Hapus</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Edit:title">Ubah</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/View:title">Lihat</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Workflow/Destroy:sure_delete">Anda yakin ?</epp:phrase>
+
+    <epp:phrase id="dynamic:not_logged_in"><a href="{$config{userhome}}">Masuk</a> <epc:phrase ref="Plugin/Screen:tool_divide"/> <a href="{$config{http_cgiurl}}/register">Registrasi</a></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Register:title">Registrasi</epp:phrase>
+
+    <epp:phrase id="meprints:profile:gallery">Galeri</epp:phrase>
+
+    <epp:phrase id="meprints:profile:outputs">Luaran</epp:phrase>
+
+    <epp:phrase id="meprints:profile:userdata">Profil</epp:phrase>
+
+    <epp:phrase id="cgi/login:page_layout">
+      <epc:pin name="problems"/>
+      <div xmlns:epc="http://eprints.org/ep3/control" class="ep_block">
+        <p>Masukan username dan password Anda <epc:pin name="reset_link"/></p>
+        <table style="margin:auto">
+          <tr><td>Username:</td><td><epc:pin name="input_username"/></td></tr>
+          <tr><td>Password:</td><td><epc:pin name="input_password"/></td><td><epc:pin name="login_button"/></td></tr>
+        </table>
+        <p>Catatan: Aktifkan cookies di browser Anda untuk hasil masksimal.</p>
+      </div>
+    </epp:phrase>
+
+    <epp:phrase id="cgi/login:reset_link">Lupa password ? Klik tautan <a href="{$config{perl_url}}/reset_password">ini</a></epp:phrase>
+
+    <epp:phrase id="cgi/register:intro">
+<p>Isi Formulir dibawah ini untuk registrasi</p>
+</epp:phrase>
+
+    <epp:phrase id="cgi/register:title">Daftar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/View:title">Profil</epp:phrase>
+
+    <epp:phrase id="cgi/users/buffer:buffer_scope"/>
+
+    <epp:phrase id="general:frontpage_link"><p xmlns:epc="http://eprints.org/ep3/control"><a href="{$config{frontpage}}"><epc:phrase ref="archive_name"/> Halaman Utama Virtual Library LKPP</a></p></epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/AllOutputs:noitems"><p/></epp:phrase>
+
+    <epp:phrase id="Plugin/MePrints/Widget/UserGallery:noitems"><p/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/Homepage:help">
+
+
+<h2>Profil</h2>
+
+<p xmlns:epc="http://eprints.org/ep3/control">Akses profil anda pada tautan <epc:pin name="profile_url"/>.</p>
+
+<h3>Publikasi Profil</h3>
+
+<p>Salin kode sumber dibawah untuk publikasi profil</p>
+
+<div align="center">
+<textarea style="width:95%; padding: 5px;" readonly="readonly">
+&lt;link rel="stylesheet" type="text/css" src="<pin name="embed_style_url"/>"/&gt;
+&lt;script type="text/javascript" src="<pin name="embed_url"/>"&gt;&lt;!-- void --&gt;&lt;/script&gt;
+</textarea>
+</div>
+</epp:phrase>
+
+    <epp:phrase id="cgi/advsearch:adv_search">Penelusuran Canggih</epp:phrase>
+
+    <epp:phrase id="cgi/advsearch:preamble"/>
+
+    <epp:phrase id="document_fieldname_format">Tipe</epp:phrase>
+
+    <epp:phrase id="document_typename_archive">Arsip</epp:phrase>
+
+    <epp:phrase id="document_typename_image">Gambar</epp:phrase>
+
+    <epp:phrase id="document_typename_other">Lainnya</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_name">Pengarang</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_documents">Dokumen</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_subjects">Subyek</epp:phrase>
+
+    <epp:phrase id="eprint_typename_book">Buku</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bytitle">berdasarkan judul</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byyear">berdasarkan tahun (most recent first)</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byname">berdasarkan nama pengarang</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_subobject">Masukan kata kunci</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_text">Masukan kata kunci</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:action_search">Cari</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_ispublished_unpub">Tidak dipublikasikan</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_ispublished_submitted">Telah dikirim</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_ispublished_pub">Telah dipublikasikan</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byyearoldest">berdasarkan tahun (oldest first)</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:bool_yes">Ya</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:bool_nopref">Tidak ada preferensi</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:bool_no">Tidak</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_keywords">Kata Kunci lainnya</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:all">sebagian</epp:phrase>
+
+    <epp:phrase id="lib/searchexpression:any">semua</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_refereed">Rujukan</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:set_all">Semua</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:set_any">Sebagian</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_ispublished_inpress">Sedang dicetak</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_longtext">Masukan kata kunci</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_namedset">Boleh pilih lebih dari satu</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_set">Boleh pilih lebih dari satu</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_subject">Boleh pilih lebih dari satu</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:action:cancel:title">Batal</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:action:create:title">Tambah Pengguna</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:blurb"><p>Tambah Pengguna Baru</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen:message_error">Eror</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewUser:user_exists">"<epc:pin name="username"/>" sudah terdaftar!</epp:phrase>
+
+    <epp:phrase id="user_typename_admin">Admin</epp:phrase>
+
+    <epp:phrase id="user_typename_user">Pengguna</epp:phrase>
+
+    <epp:phrase id="user_section_personal">Identitas Lengkap</epp:phrase>
+
+    <epp:phrase id="user_fieldname_roles">Peran</epp:phrase>
+
+    <epp:phrase id="user_fieldname_usertype">Tipe Pengguna</epp:phrase>
+
+    <epp:phrase id="user_section_account">Info Akun</epp:phrase>
+
+    <epp:phrase id="user_section_meprints">Profil Saya</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:default:title">Profil</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:enova_meprints:title">Info Tambahan</epp:phrase>
+
+    <epp:phrase id="lib/metafield:honourific">Titel</epp:phrase>
+
+    <epp:phrase id="lib/metafield:unspecified_selection">Tidak memilih</epp:phrase>
+
+    <epp:phrase id="lib/submissionform:action_prev">&lt; Sebelumnya</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:usertype:title">Akun</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:meprints:title">Biografi</epp:phrase>
+
+    <epp:phrase id="user_fieldname_address">Alamat</epp:phrase>
+
+    <epp:phrase id="user_fieldname_email">Email</epp:phrase>
+
+    <epp:phrase id="user_fieldname_dept">Divisi</epp:phrase>
+
+    <epp:phrase id="user_fieldname_org">Organisasi</epp:phrase>
+
+    <epp:phrase id="user_fieldname_hideemail">Sembunyikan email</epp:phrase>
+
+    <epp:phrase id="user_fieldname_url">Alamat Beranda</epp:phrase>
+
+    <epp:phrase id="user_fieldname_country">Negara</epp:phrase>
+
+    <epp:phrase id="user_radio_hideemail"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/> Publikasikan Email</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Sembunyikan Email</label></epp:phrase>
+
+    <epp:phrase id="user_fieldopt_user_profile_visibility_private">Privat</epp:phrase>
+
+    <epp:phrase id="user_fieldopt_user_profile_visibility_public">Publik</epp:phrase>
+
+    <epp:phrase id="user_fieldname_user_profile_visibility">Akses Profil</epp:phrase>
+
+    <epp:phrase id="user_fieldname_qualifications">Kualifikasi</epp:phrase>
+
+    <epp:phrase id="user_fieldname_expertise">Keahlian</epp:phrase>
+
+    <epp:phrase id="user_fieldname_jobtitle">Pekerjaan</epp:phrase>
+
+    <epp:phrase id="user_fieldname_biography">Bio</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_expertise">Keahlian</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Items:help">Halaman ini untuk mengelola artikel</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/UploadPicture:cancel">Batal</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/UploadPicture:upload">Unggah!</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/UploadPicture:profile_blurb">Pilih Foto</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/User/UploadPicture:resetpic">Reset</epp:phrase>
+
+    <epp:phrase id="irstats2/view/export_section">
+<form xmlns:epc="http://eprints.org/ep3/control" action="/cgi/stats/get" method="get">
+<epc:pin name="params"/>
+Unduh sebagai <epc:pin name="options"/>
+<input type="submit" value="Export"/> 
+</form>
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:plural:downloads">Unduh</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:ratio_fulltext">Teks Lengkap</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:ratio_openaccess">Akses Terbuka</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:available_reports">Laporan yang tersedia</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:dates">Tanggal</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:filter_items">Item</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:authors">Pengarang</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:divisions">Divisi</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:repository">Semua Item</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:subjects">Subyek</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:type">Tipe Item</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/type:downloads">Unduh</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:category:general">Umum</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:category:most_popular">Paling Populer</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:main">Statistik</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:most_popular:most_popular_authors">Pengarang</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:view:top_authors">Pengarang Populer</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:view:top_downloads">Item Paling Banyak diunduh</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:plural:deposits">Item</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:general:main">Ringkasan</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_lang">Bahasa</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_name">Nama</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name_sortvalue">Urutkan Nama</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name">Nama Subyek</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:title">Edit subyek</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:action_unlink">Hapus</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Edit:action_save">Simpan</epp:phrase>
+
+    <epp:phrase id="user_fieldname_name">Nama</epp:phrase>
+
+    <epp:phrase id="user_fieldname_statement">Pengalaman Riset</epp:phrase>
+
+    <epp:phrase id="user_fieldname_profile_video">Video Profil</epp:phrase>
+
+    <epp:phrase id="user_fieldname_named_links_desc">Nama</epp:phrase>
+
+    <epp:phrase id="user_fieldname_named_links_url">Tautan</epp:phrase>
+
+    <epp:phrase id="user_fieldname_interests">Bidang Minat</epp:phrase>
+
+    <epp:phrase id="user_fieldname_memberships">Keanggotan Profesional</epp:phrase>
+
+    <epp:phrase id="user_fieldname_grants">Pendanaan</epp:phrase>
+
+    <epp:phrase id="user_fieldname_supervision">Supervisi</epp:phrase>
+
+    <epp:phrase id="user_fieldname_esteem">Penghargaan</epp:phrase>
+
+    <epp:phrase id="user_fieldname_ext_examinations">Lainnya</epp:phrase>
+
+    <epp:phrase id="user_fieldname_named_links">Tautan</epp:phrase>
+
+    <epp:phrase id="user_radio_rights_to_video"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/> Ya</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/> Tidak</label></epp:phrase>
+
+    <epp:phrase id="user_fieldname_rights_to_video">Izin Menggunakan Video</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:help">Unggah Artikel</epp:phrase>
+
+    <epp:phrase id="eprint_radio_refereed"><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="true"/>Ya</label><br/><label xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="false"/>Tidak</label></epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:subjects_search_bar"><div xmlns:epc="http://eprints.org/ep3/control" class="ep_subjectinput_searchbar">Cari: <epc:pin name="input"/> <epc:pin name="search_button"/> <epc:pin name="clear_button"/></div></epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:search_search_button">Cari</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:add">Tambahkan</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Field/Subject:search_clear_button">Hapus</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:item_is_in_inbox"/>
+
+    <epp:phrase id="eprint_fieldname_userid">Pengguna</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Summary:title">Ringkasan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Actions:title">Aksi</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/History:title">Histori</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Issues:title">Isu</epp:phrase>
+
+    <epp:phrase id="page:nofulltext">Tidak ada teks</epp:phrase>
+
+    <epp:phrase id="lib/dataobj:unspecified">Tidak spesifik</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint:locked_to_you">Item tidak dapat diubah</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:show_options">Pengaturan Berkas</epp:phrase>
+
+    <epp:phrase id="document_fieldname_formatdesc">Deskripsi</epp:phrase>
+
+    <epp:phrase id="document_fieldname_language">Bahasa</epp:phrase>
+
+    <epp:phrase id="document_fieldname_license">Lisensi</epp:phrase>
+
+    <epp:phrase id="document_fieldname_security">Dapat diakses oleh</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:update">Perbaharui Metadata</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:hide_options">Tutup</epp:phrase>
+
+    <epp:phrase id="document_fieldname_date_embargo">Kadaluarsa</epp:phrase>
+
+    <epp:phrase id="document_fieldname_content">Konten</epp:phrase>
+
+    <epp:phrase id="security_typename_public">Semuanya</epp:phrase>
+
+    <epp:phrase id="security_typename_validuser">Pengguna Terdaftar</epp:phrase>
+
+    <epp:phrase id="security_typename_staffonly">Admin/Reviewer</epp:phrase>
+
+    <epp:phrase id="lib/metafield:unspecified">-</epp:phrase>
+
+    <epp:phrase id="lib/utils:month_00">-</epp:phrase>
+
+    <epp:phrase id="deposit_agreement_text">-</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Deposit:action:move_buffer:description"/>
+
+    <epp:phrase id="lib/eprint:not_done_field">Anda belum mengisi <epc:pin name="fieldname"/></epp:phrase>
+
+    <epp:phrase id="warnings:no_documents">Anda belum unggah artikel</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:item_is_in_buffer">Sedang ditelaah</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_archive:description">Publikasikan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Move:action:move_archive:title">Publikasikan</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/RejectWithEmail:title">Komentar</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/RemoveWithEmail:title">Hapus Artikel</epp:phrase>
+
+    <epp:phrase id="cgi/users/edit_eprint:reject_form_intro"/>
+
+    <epp:phrase id="cgi/users/edit_eprint:subject_bounce">Komentar Reviewer</epp:phrase>
+
+    <epp:phrase id="priv:action/eprint/reject_with_email">Kirimkan</epp:phrase>
+
+    <epp:phrase id="mail_bounce_body">
+<div style="font-size: 11pt">Hasil Telaah</div>
+<p xmlns:epc="http://eprints.org/ep3/control">Artikel Anda belum bisa dipublikasikan <b><epc:pin name="title"/></b></p>
+<p xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="reason"/></p>
+</epp:phrase>
+
+    <epp:phrase id="bin/generate_views:browseintro"><div class="ep_view_browse_intro">Lihat koleksi dokumen</div></epp:phrase>
+
+    <epp:phrase id="bin/generate_views:browsetitle">Telusuri item</epp:phrase>
+
+</epp:phrases>

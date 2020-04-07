@@ -1,0 +1,106 @@
+
+/* 
+ * This CSS file will be applied after all the built in styles.
+ * 
+ * CSS files are loaded in alphabetic order, hence the  "zzz" in 
+ * the filename to force it to load after the other css files!
+ * 
+ * Add any local over-rides here. 
+ * 
+ * To totally replace a system css file, create a file of the same 
+ * name in this directory. eg. messages.css
+ * 
+*/
+
+a, .ep_tm_key_tools {
+    	color: #111111;
+}
+
+.ep_tab_bar {
+        border-color: #ccc;
+        background-color: #FFF;
+}
+
+.ep_tab_selected {
+        border-color: #ccc;
+        background-color: #FFF;
+}
+
+
+.ep_tab_panel {
+	border-color: #ccc;
+        background-color: #FFF;
+}
+
+.ep_sr_title_bar {
+	border-color: #ccc;
+        background-color: #FFF;
+}
+
+.ep_sr_content {
+	border-color: #ccc;
+        background-color: #FFF;
+}
+
+.ep_tm_searchbarbutton {
+	border-color: #111;
+        background-color: #111111;
+}
+
+.ep_search_buttons {
+	border-color: #111;
+        background-color: #FFF;
+}
+
+.ep_form_action_button {
+	border-color: #111;
+	background-color: #111111;
+}
+
+.ep_toolbox_content {
+	border-color: #111;
+	background-color: #FFFFFF;
+}
+
+
+.ep_summary_box_title {
+        border-color: #111;
+        background-color: #FFFFFF;
+}
+
+.ep_summary_box_body {
+        border-color: #111;
+        background-color: #FFFFFF;
+}
+
+.ep_tm_menu, .ep_tm_menu ul {
+	background-color: #111111;
+}
+
+.ep_tm_searchbar {
+    background-color: #F75151;
+    background-image: url(images/bar_24px.png);
+    background-repeat: repeat-x;
+}
+
+.ep_columns_title {
+    background-color: #FFF;
+    background-image: url(images/bar_24px.png);
+    background-repeat: repeat-x;
+
+}
+
+.ep_columns_alter {
+    background-color: #FFF;
+    background-image: none;
+    background-repeat: repeat-x;
+
+}
+
+.meprints_box_title {
+	background-color: #FFFFFF;
+}
+
+.meprints_box_body {
+	background-color: #FFFFFF;
+}	
