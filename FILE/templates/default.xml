@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE html SYSTEM "entities.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="{$config{rel_path}}/images/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="{$config{rel_path}}/images/all.css"></link>
+    <epc:pin ref="head"/>
+  </head>
+  <body>
+    <div class="container bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="{$config{http_url}}"><i class="fas fa-home"></i> BERANDA <span class="sr-only">(current)</span></a>
+      </li>
+      <!--
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="http://lkpp.go.id" target="_blank"><i class="fas fa-building"></i> LKPP</a>
+      </li>
+      -->      
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="https://drive.google.com/open?id=1vZ878xluSNW4ZUlT-BUApWxNSfaYK9rk" target="_blank"><i class="fas fa-book"></i> PANDUAN</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="https://drive.google.com/open?id=1v90IDyqpwA1mVN8Q5xvT2dCHOKHAoz4UKFwS558sHzI" target="_blank"><i class="fas fa-book"></i> FEEDBACK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="{$config{http_url}}/cgi/search/advanced"><i class="far fa-sticky-note"></i> KOLEKSI</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="{$config{http_url}}/cgi/stats/report"><i class="far fa-chart-bar"></i> STATISTIK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link btn btn-dark" href="{$config{http_url}}/view"><i class="far fa-search"></i> PENELUSURAN</a>
+      </li>
+
+
+      
+    </ul>
+    
+    <form class="form-inline my-2 my-lg-0" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Masukan kata kunci" aria-label="Search"></input>
+      <input class="btn btn-outline-light my-2 my-sm-0" value="Cari" type="submit" name="_action_search"/>
+              <input type="hidden" name="_action_search" value="Search"/>
+              <input type="hidden" name="_order" value="bytitle"/>
+              <input type="hidden" name="basic_srchtype" value="ALL"/>
+              <input type="hidden" name="_satisfyall" value="ALL"/>
+      
+    </form>
+  </div>
+</nav>
+<epc:pin ref="login_status"/>
+
+<hr class="bg-light my-20"></hr>
+
+    
+
+
+
+    <div>
+       <div>
+        <epc:pin ref="page"/>
+      </div>
+    </div>
+    <div class="ep_tm_footer ep_noprint">
+      <div class="ep_tm_eprints_logo">
+        <a href="http://eprints.org/software/">
+          <img alt="EPrints Logo" src="{$config{rel_path}}/images/eprintslogo.gif"/>
+        </a>
+      </div>
+      Virtual Library LKPP berbasis EPrints 3 yang dikembangkan oleh School of Electronics and Computer Science,University of Southampton
+    </div>
+
+    <br></br>
+
+<div class="bg-dark text-white">
+      <p class="text-center">
+      <i class="far fa-copyright"></i> Hak Cipta LKPP 2018<br></br>
+      Dikelola oleh Tim Pusdiklat LKPP<br></br>
+      Kompleks Rasuna Epicentrum<br></br>
+      Jl. Epicentrum Tengah Lot 11 B, Jakarta Selatan, DKI Jakarta - 12940 <br></br>
+      Tel: (021) 299 12 450, Fax: (021) 299 12 451
+      </p>
+</div>
+
+<!--
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+-->
+</div>
+  </body>
+</html>
